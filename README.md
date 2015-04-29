@@ -4,6 +4,8 @@ This is a docker container for compiling the Ethereum CLI client: Geth.
 Geth is only available on the develop branch so that's the branch
 currently being build.
 
+Currently there is supported for ARM (Raspberry Pi) and AMD64 builds.
+
 You can run the included build script or run the instructions manually:
 
 ```
