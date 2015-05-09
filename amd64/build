@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t build-geth .
+docker build --no-cache -t build-geth .
 docker run --rm -v "$PWD":/shared/ -w /go/src/github.com/ethereum/go-ethereum/cmd/geth build-geth bash -c "go install -v && cp /go/bin/geth /shared/"
